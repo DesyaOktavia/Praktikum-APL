@@ -18,7 +18,6 @@ struct Toko {
 void TambahProdukPointer(Toko* toko);
 void UpdateHarga(Produk* produk);
 
-// Subprogram lainnya
 void LihatProduk(const Toko &toko);
 void LihatProduk(const Toko &toko, const string &namaProduk);
 bool UpdateProduk(Toko &toko, const string &nama);
